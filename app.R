@@ -70,14 +70,6 @@ ui <- fluidPage(
            plotOutput("distPlot",
                       width = "auto",
                       height = "400px")
-           
-           # sliderInput("bins",
-           #             "Filter with P-values:",
-           #             min = 0.0000000001,
-           #             max = 0.0001,
-           #             value = 0.0001,
-           #             #step = 0.0001,
-           #             width = "400px")
         )
     )
 )
